@@ -4,7 +4,7 @@ CREATE TABLE tt_cities(
   country_code varchar(2),
   city varchar(40),
   region varchar(5),
-  population integer(15),
+  population int(15),
   latitude float(10),
   longitude float(10)
 );
