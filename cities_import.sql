@@ -1,6 +1,6 @@
 drop table if exists tt_cities;
 CREATE TABLE tt_cities(
-  country_name varchar(100) default 'N/A'
+  country_name varchar(100) default 'N/A',
   country_code varchar(2),
   city varchar(40),
   region varchar(5),
