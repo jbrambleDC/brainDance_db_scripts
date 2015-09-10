@@ -6,4 +6,4 @@ create table tt_country_codes(
 load data local infile '~/country_code.txt' into table tt_country_codes
 fields terminated by '\t';
 
-update tt_cities tt join tt_country_codes tt2 on tt1.country_code = tt2.country_code set tt1.country_name = tt2.country_name;
+update tt_cities tt join tt_country_codes tt2 on tt.country_code = tt2.country_code set tt.country_name = tt2.country_name;
